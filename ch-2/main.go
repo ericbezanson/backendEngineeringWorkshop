@@ -11,7 +11,6 @@ import (
 	"sync"
 )
 
-// DATA MODELS
 // Config maps to the keys in our external config.json file
 type Config struct {
 	Port      string `json:"port"`
